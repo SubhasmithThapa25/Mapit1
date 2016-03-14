@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_id": "mapit-81f46",
+    "project_number": "289944800048",
+    "name": "Mapit"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289944800048:android:7c87eeb948f6b676",
+        "client_id": "android:com.example.hp_pc.mapit",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.hp_pc.mapit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289944800048-6eucqaofod05blf0dk81k39vh5a7isag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp_pc.mapit",
+            "certificate_hash": "CFBB698621F271B4BFE3E86ED8181AC6804590CF"
+          }
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

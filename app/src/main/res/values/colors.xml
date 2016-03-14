@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ed1c24</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ed1c24</color>
+    <color name="grey">#010101</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="main_color">#ed1c24</color>
+    <color name="datecolor">#f50057</color>
+    <color name="background">#8b9dc3</color>
+    <color name="mapittext">#3b5998</color>
+
+
+</resources>

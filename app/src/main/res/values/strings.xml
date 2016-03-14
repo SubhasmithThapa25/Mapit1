@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mapit</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_after_sign_up_page">AfterSignUpPage</string>
+    <string name="title_activity_after_sign_up">AfterSignUp</string>
+    <string name="title_activity_map_screen">MapScreen</string>
+    <string name="title_activity_popup1">popup1</string>
+    <string name="title_activity_after_info_click">AfterInfoClick</string>
+    <string name="title_activity_update_heading">UpdateHeading</string>
+    <string name="title_activity_update_description">UpdateDescription</string>
+    <string name="title_activity_on_info_click">OnInfoClick</string>
+    <string name="title_activity_start_page">Mapit</string>
+</resources>

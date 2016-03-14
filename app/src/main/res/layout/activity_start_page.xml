@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.hp_pc.mapit.StartPage">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/app_icon_your_company"
+    android:layout_above="@+id/textView5"
+    android:layout_centerHorizontal="true" />
+    <TextView android:text="Welcome to Mapit" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accent_material_dark"
+        android:textSize="35sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView5" />
+    
+    <ProgressBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="111dp"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5" />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/back3">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up for Mapit"
+            android:layout_marginRight="73dp"
+            android:id="@+id/signup"
+            android:layout_marginBottom="53dp"
+            android:background="#00040404"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="73dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:background="#00000000">
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:id="@+id/signin"
+            android:textColor="#ffffff"
+            android:background="#00080808"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="92dp"
+            android:layout_marginEnd="92dp" />
+
+        <Space
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_alignRight="@+id/signin"
+            android:layout_alignTop="@+id/signin" />
+    </RelativeLayout>
+</LinearLayout>
